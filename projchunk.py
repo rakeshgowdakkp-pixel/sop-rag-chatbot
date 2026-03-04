@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_ollama import OllamaLLM
 
 # Load document
-loader = Docx2txtLoader("SOP_MASTER.docx")
+loader = Docx2txtLoader("Sample_SOP.docx")
 documents = loader.load()
 
 # Chunk document
